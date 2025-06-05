@@ -1,12 +1,12 @@
 import './App.css';
-import Navbar from "./assets/Navbar.tsx";
 import Banner from "./assets/Banner.tsx";
+import Header from "./assets/Header.tsx";
 
 function App() {
 
   return (
     <>
-      <Navbar/>
+      <Header/>
       <Banner/>
     </>
   )
